@@ -24,6 +24,6 @@ weatherForm.addEventListener('submit', (e) => {
         })
     });
 
-    searchEl.value = null;
+    searchEl.value = '';
 
 })
