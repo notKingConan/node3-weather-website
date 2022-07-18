@@ -24,7 +24,7 @@ hbs.registerPartials('templates/partials');
 // setup static directory to serve
 app.use(express.static('public'));
 
-app.get('./', (req, res) => {
+app.get('', (req, res) => {
     
     res.render('index', {
         title: 'Weather',
